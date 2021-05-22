@@ -1,0 +1,153 @@
+html {
+  display: block;
+}
+
+body {
+  font-family: 'Poppins', 'Source Sans Pro', 'Railway', 'Arial', sans-serif, serif;
+  margin: 0 10%;
+  background-color: peru;  
+}
+
+p {
+  display: block;
+  margin: 1em;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0.83em;
+}
+
+.container {
+  border: 2px solid teal;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: moccasin;
+  display: block;
+}
+
+div .color-container {
+  display: block;
+}
+
+.color-container {
+  width: 100%;
+}
+
+.color-panel {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  margin: 20px auto;
+  height: 100px;
+}
+
+.teal {
+  background-color: #008080;
+  color: #fff;
+  width: 32%;
+}
+
+.green {
+  background-color: #008000;
+  color: #fff;
+  width: 32%;
+}
+
+.beige {
+  background-color: #f5f5dc;
+  color: #000;
+  width: 32%;
+}
+
+.blue {
+  background-color: #0000ff;
+  color: #fff;
+  width: 32%;
+  text-align: center;
+}
+
+.brown {
+  background-color: #a52a2a;
+  color: #fff;
+  width: 32%;
+  text-align: center;
+}
+
+.peru {
+  background-color: #cd853f;
+  color: #fff;
+  width: 32%;
+  text-align: center;
+}
+
+.poppins {
+  font-family: 'Poppins', 'Arial', sans-serif;
+}
+
+.raleway {
+  font-family: 'Raleway', 'Georgia', sans-serif;
+}
+
+.source-sans-pro {
+  font-family: 'Source Sans Pro', 'Source Serif Pro',  sans-serif;
+}
+
+.regular {
+  font-style: normal;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.font-panel {
+  width: 45%;
+  display: inline-block;
+}
+
+.font-label {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.font-container {
+  display: block;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.text-container {
+  display: block;
+}
+
+.text-panel h1 {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: "Source Sans Pro", "Poppins", sans-serif;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin: 1em;
+  padding: 20px;
+}
+
+li {
+  display: list-item;
+}
